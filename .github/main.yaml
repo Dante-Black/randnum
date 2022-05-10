@@ -32,12 +32,3 @@ jobs:
           context: .
           push: true
           tags: kaung4410/randnumimg:v1.1
-
-      # -
-      #   name: Post message on slack
-      #   uses: bluenovaio/action-slack@main
-      #   with:
-      #     username: ""
-      #     icon_emoji: ":robot_face:"
-      #     text:  "Name: Kaung Hein\nMatriculation: A0249490W\nEmail: <outlook.com|E0941683@U.NUS.EDU> \nRepo: <https://github.com/Dante-Black/randnum.git|git@github.com:Dante-Black/randnum.git>\nImage name: \nImage url: "
-      #     webhook_url: ${{ secrets.SLACK_WEBHOOK }}
